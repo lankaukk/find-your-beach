@@ -68,6 +68,7 @@ export var App = () => {
         padding: 8,
         gap: 8,
         background: 'white',
+        backgroundColor: '#e5e78c',
       }}
     >
       <div
@@ -99,10 +100,10 @@ export var App = () => {
         >
           <Button
             onClick={useLiveData}
-            icon={'Live Data'}
+            icon='Live Data'
             selected={liveData}
             unClickedState
-          ></Button>
+          />
           <Button
             onClick={handleShuffle}
             icon={

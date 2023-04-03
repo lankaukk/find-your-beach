@@ -11,7 +11,13 @@ import {
 
 export var Playground = () => {
   return (
-    <>
+    <div
+      style={{
+        width: '100%',
+        height: '100%',
+        backgroundColor: '#e5e78c',
+      }}
+    >
       <span
         style={{
           fontSize: '40px',
@@ -56,10 +62,10 @@ export var Playground = () => {
         rating={5}
         style={{
           position: 'absolute',
-          width: '68.8%',
+          width: '57.05214899713%',
           left: 62,
           top: 121,
-          bottom: 550,
+          bottom: 519,
         }}
       />
       <Button
@@ -171,14 +177,14 @@ export var Playground = () => {
       </span>
       <span
         style={{
-          fontSize: '40px',
+          fontSize: '34px',
           fontWeight: 700,
           fontStyle: 'normal',
           position: 'absolute',
           left: 442,
-          top: 41,
-          height: 71,
+          top: 35,
           fontFamily: 'ITC Garamond Std',
+          height: 'max-content',
         }}
       >
         Find Your Beach
@@ -206,6 +212,6 @@ export var Playground = () => {
       >
         Featured
       </span>
-    </>
+    </div>
   )
 }

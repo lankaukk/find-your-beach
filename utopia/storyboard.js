@@ -32,10 +32,11 @@ export var storyboard = (
         flexDirection: 'column',
         left: 1072,
         top: 128,
+        backgroundColor: '#e5e78c',
       }}
       data-label='Mobile List'
     >
-      <App style={{}} />
+      <App style={{ backgroundColor: '#e5e78c' }} />
     </Scene>
     <Scene
       style={{
