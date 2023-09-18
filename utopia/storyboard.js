@@ -17,8 +17,8 @@ export var storyboard = (
         height: 759,
         backgroundColor: 'rgb(255, 255, 255, 0)',
         border: '1px dashed rgb(0, 0, 0, 1)',
-        left: 124,
-        top: 32,
+        left: -308,
+        top: -320,
       }}
       data-label='Playground'
     >
